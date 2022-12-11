@@ -9,7 +9,7 @@ Application operation
 - You can add any searched movie to your favorites database (/add);
 - Also you can display a list of your favorite movies (/favorite);
 
-The technology stack used to write this application/page is:
+The technology stack used to write this application:
 
 - Spring Boot
 - Thymeleaf
@@ -17,7 +17,7 @@ The technology stack used to write this application/page is:
 - Lombok
 - IntelliJ IDEA
 
-Launching the application/website:
+Launching the application:
 
 Requirements: 
 - Java 16/19
@@ -45,7 +45,7 @@ Obsługa aplikacji
 - Każdy wyszukany film możesz dodać do bazy ulubionych (/add);
 - Możesz również wyświetlić listę swoich ulubionych filmów (/favorite);
 
-Stos technologiczny użyty do napisania tej aplikacji/strony to:
+Technologie użyte do napisania aplikacji:
 
 - Spring Boot
 - Thymeleaf
