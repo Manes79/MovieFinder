@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title>Movie Finder OMDb</title>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/mdb.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+
+<header class="body-background">
+
+    <nav class="navbar-bottom navbar navbar-expand-lg navbar-dark fixed-top">
+
+        <div class="container">
+
+            <a class="navbar-brand"><h3 class='my-auto'><span class="h2">Movie Finder OMDb</span></h3></a>
+
+            <ul class="navbar-nav mr-auto px-1">
+                <li class="nav-item active"><a class="nav-link" href="/favorites/favorite">Favorite Movies</a></li>
+            </ul>
+
+        </div>
+    </nav>
+</header>
+
+<div class="wrapper">
+
+    <div class="search-btn"><span class="fas fa-search"></span></div>
+
+    <form method="post" action="/result">
+        <div class="search-data">
+            <input type="text" name="title" required>
+            <div class="line"></div>
+            <label>Enter a movie title</label>
+            <button type="submit">
+                <span class="fas fa-search"></span>
+            </button>
+        </div>
+    </form>
+
+</div>
+
+<script type="text/javascript" src="/js/jquery.min.js"></script>
+<script type="text/javascript" src="/js/popper.min.js"></script>
+<script type="text/javascript" src="/js/bootstrap.min.js"></script>
+
+<script type="text/javascript">
+    $(".search-btn").click(function () {
+        $(".wrapper").addClass("active");
+        $(this).css("display", "none");
+        $(".search-data").fadeIn(500);
+        $(".close-btn").fadeIn(500);
+        $(".search-data .line").addClass("active");
+        setTimeout(function () {
+            $("input").focus();
+            $(".search-data label").fadeIn(500);
+            $(".search-data span").fadeIn(500);
+        }, 800);
+    });
+    $(".close-btn").click(function () {
+        $(".wrapper").removeClass("active");
+        $(".search-btn").fadeIn(800);
+        $(".search-data").fadeOut(500);
+        $(".close-btn").fadeOut(500);
+        $(".search-data .line").removeClass("active");
+        $("input").val("");
+        $(".search-data label").fadeOut(500);
+        $(".search-data span").fadeOut(500);
+    });
+</script>
+
+</body>
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title>Movie Finder OMDb</title>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/mdb.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+<header>
+    <nav class="navbar-bottom navbar navbar-expand-lg navbar-dark fixed-top">
+
+        <div class="container">
+
+            <span class="h2">Movie Finder OMDb</span>
+
+            <ul class="navbar-nav mr-auto px-1">
+                <li class="nav-item active"><a class="nav-link" href="/">Home
+                </a></li>
+            </ul>
+
+        </div>
+    </nav>
+</header>
+
+<div class="body-background">
+
+    <div class="container custom-container">
+
+        <form class="navbar-nav" action="/favorites" method="post"
+              th:object="${add}">
+
+            <br>
+            <div class="mb-3">
+                <label for="eventName">Movie Title</label>
+                <input class="form-control" id="eventName" placeholder="Title" th:field="*{title}"
+                       type="text">
+            </div>
+
+            <div class="mb-3">
+                <label for="eventPlace">Movie Director</label>
+                <input class="form-control" id="eventPlace" placeholder="Director" th:field="*{director}"
+                       type="text">
+            </div>
+
+            <div class="mb-3">
+                <label for="eventComments">Movie Genre</label>
+                <input class="form-control" id="eventComments" placeholder="Genre" th:field="*{genre}"
+                       type="text">
+            </div>
+
+            <div class="mb-3">
+                <label for="eventComments">Movie Description</label>
+                <input class="form-control" id="eventGenre" placeholder="Description" th:field="*{plot}"
+                       type="text">
+            </div>
+
+            <input th:field="*{id}" type="hidden"/>
+
+            <label>
+                <button type="submit" class="btn btn-danger active">Add</button>
+            </label>
+
+        </form>
+    </div>
+</div>
+
+</body>
+
+</html>
