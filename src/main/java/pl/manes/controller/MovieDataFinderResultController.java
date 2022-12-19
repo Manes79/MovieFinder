@@ -25,6 +25,7 @@ public class MovieDataFinderResultController {
             return MovieDataFinderTemplate.NOT_FOUND;
 
         model.addAttribute("movie", movieService.findMovie(movieTitle).getBody());
+
         return MovieDataFinderTemplate.RESULT;
     }
 }

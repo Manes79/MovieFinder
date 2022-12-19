@@ -9,6 +9,7 @@ import pl.manes.configuration.utility.MovieDataFinderUrlGenerator;
 import pl.manes.domain.model.Favorite;
 import pl.manes.domain.repository.MovieFinderRepository;
 import pl.manes.dto.MovieDto;
+import pl.manes.dto.RatingDto;
 
 import java.util.List;
 
@@ -28,6 +29,7 @@ public class MovieService {
 
         if (movieDto.getResponse().equalsIgnoreCase("FALSE"))
             return ResponseEntity.notFound().build();
+
         return ResponseEntity.ok(movieDto);
     }
 
