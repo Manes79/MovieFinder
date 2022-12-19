@@ -19,16 +19,17 @@ The technology stack used to write this application:
 
 Launching the application:
 
-Requirements: 
+Requirements:
+
 - Java 16/19
 - Maven
 
 Generate the OMDB API key from the page: https://www.omdbapi.com/apikey.aspx
 
-- Enter the obtained key into application.properties 
-  - Run the following commands in Maven
-    -   mvn clean install
-    -   mvn spring-boot:run
+- Enter the obtained key into application.properties
+    - Run the following commands in Maven
+        - mvn clean install
+        - mvn spring-boot:run
 
 Navigate to the following URI in any browser: http://localhost:8080
 
@@ -58,6 +59,7 @@ Uruchamianie aplikacji:
 Lokalny Setup
 
 Wymagania:
+
 - Java 16/19
 - Maven
 
@@ -65,8 +67,8 @@ Wygeneruj klucz API OMDB ze strony: https://www.omdbapi.com/apikey.aspx
 
 - Wprowadź uzyskany klucz do application.properties
 - Wykonaj następujące polecenia w Maven
-  - mvn clean install
-  - mvn spring-boot:run
+    - mvn clean install
+    - mvn spring-boot:run
 
 Przejdź do następującego URI w dowolnej przeglądarce
 http://localhost:8080
