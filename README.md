@@ -1,6 +1,6 @@
-English
+#### English
 
-Movie Finder OMDb
+# **Movie Finder OMDb**
 
 Application operation:
 - Enter the title of the movie you are interested in in the search box on the main page of the application (/index);
@@ -8,10 +8,10 @@ Application operation:
 - You can add any searched movie to your favorites database (/add);
 - Also you can display a list of your favorite movies (/favorite);
 
-![MovieFinder_1](https://user-images.githubusercontent.com/83776302/208764566-f4efcbe8-133b-4ae5-955b-9691747a9a43.jpg)
-![MovieFinder_2 jpg](https://user-images.githubusercontent.com/83776302/208764592-c3966dc4-ab60-4fe3-8653-2f49c4d2699a.png)
-![MovieFinder_3 jpg](https://user-images.githubusercontent.com/83776302/208764636-ab6b7639-56bd-4097-bf16-1e6f903e2c31.png)
-![MovieFinder_4](https://user-images.githubusercontent.com/83776302/208764674-7d0a875b-6827-489b-ab2e-69657f544a25.jpg)
+![MovieFinder_1](https://user-images.githubusercontent.com/83776302/209221951-5c8343aa-b307-4a72-adc3-8234be52343b.png)
+![MovieFinder_2](https://user-images.githubusercontent.com/83776302/209223039-8a63db4e-4843-4d8f-a1da-9da5647552f8.png)
+![MovieFinder_3](https://user-images.githubusercontent.com/83776302/209223373-c09cf05c-fb39-4209-8c99-39945142c7f6.png)
+![MovieFinder_4](https://user-images.githubusercontent.com/83776302/209223520-795f012e-632b-44c1-8a4b-515935f69397.png)
 
 The technology stack used to write this application:
 
@@ -39,9 +39,9 @@ Navigate to the following URI in any browser: http://localhost:8080
 
 
 ---------------------------------------------------------------------------------------------------------------------------------------
-Polish
+#### Polish
 
-Movie Finder OMDb
+# **Movie Finder OMDb**
 
 Obsługa aplikacji
 
