@@ -8,7 +8,7 @@ Application operation:
 - You can add any searched movie to your favorites database (/add);
 - Also you can display a list of your favorite movies (/favorite);
 
-![MovieFinder_1](https://user-images.githubusercontent.com/83776302/209221951-5c8343aa-b307-4a72-adc3-8234be52343b.png)
+![MovieFinder1](https://user-images.githubusercontent.com/83776302/209405542-9dbd836e-d58f-4b7e-9e6e-7f7e320c274c.png)
 ![MovieFinder_2](https://user-images.githubusercontent.com/83776302/209223039-8a63db4e-4843-4d8f-a1da-9da5647552f8.png)
 ![MovieFinder_3](https://user-images.githubusercontent.com/83776302/209223373-c09cf05c-fb39-4209-8c99-39945142c7f6.png)
 ![MovieFinder_4](https://user-images.githubusercontent.com/83776302/209223520-795f012e-632b-44c1-8a4b-515935f69397.png)
