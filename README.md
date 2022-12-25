@@ -8,10 +8,11 @@ Application operation:
 - You can add any searched movie to your favorites database (/add);
 - Also you can display a list of your favorite movies (/favorite);
 
-![MovieFinder_1](https://user-images.githubusercontent.com/83776302/209439173-21eb2fa5-1dd9-454a-957f-741833f91180.png)
-![MovieFinder_2](https://user-images.githubusercontent.com/83776302/209439212-be1398a9-9c66-40e9-b932-5e5bc076e7b7.png)
-![MovieFinder_3](https://user-images.githubusercontent.com/83776302/209439260-dbf8f5b2-d811-4afa-baf0-20b02c0f450a.png)
-![MovieFinder_4](https://user-images.githubusercontent.com/83776302/209439300-b7874d78-e4bb-4149-ad63-eb9b15248e90.png)
+![MovieFinder_1](https://user-images.githubusercontent.com/83776302/209475294-571cea75-805f-4339-ba9f-27a029b78763.png)
+![MovieFinder2](https://user-images.githubusercontent.com/83776302/209475299-9f728fd9-2c81-41f8-943c-15436acee8b9.png)
+![MovieFinder_3](https://user-images.githubusercontent.com/83776302/209475303-be7b0a0d-023b-4343-a272-cffe6b80dead.png)
+![MovieFinder_4](https://user-images.githubusercontent.com/83776302/209475305-a7e2ed99-9ae0-4e07-9a60-29b31c1041da.png)
+![MovieFinder_5](https://user-images.githubusercontent.com/83776302/209475310-671235b0-f00c-4756-8359-6b75af7fcb5c.png)
 
 The technology stack used to write this application:
 

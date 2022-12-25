@@ -15,6 +15,7 @@ public class MovieDataFinderUrlGenerator {
     public String generateUrl(final String movieTitle) {
 
         final var properties = movieDataFinderConfigurationProperties.getMovieBase();
+
         return properties.getUrl().replace("{key}", properties.getApiKey()).replace("{title}", movieTitle).trim()
                 .replace(" ", "_");
     }
